@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live coding: html-start</title>
+</head>
+<body>
+  <header>
+    <h1>Hello World</h1>
+  </header>
+  <main>
+
+
+    <div>Div</div>
+    <div>Blocking</div>
+    <div>Tag</div>
+
+    <section style="background-color: grey;">
+      <!-- Immagine da link esterno -->
+      <img src="https://picsum.photos/500/300" alt="immagine random">
+
+      <!-- Immagine locale medesima area-->
+      <img src="image.jpg"/>
+      <img src="./image.jpg"/>
+
+      <!-- Immagine locale nella cartella img-->
+      <img src="img/image2.jpg"/>
+      <img src="./img/image2.jpg"/>
+    </section>
+
+    <!-- Nesting -->
+    <p>My cat is <strong>very</strong> grumpy.</p>
+
+    <!-- Commento non eseguito da HTML -->
+
+    <!-- Commento
+        su
+        più
+        righe -->
+        &#169;
+        &#216;
+  <section style="background-color: aquamarine;">
+
+    <h2>Caratteri speciali</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Codice</th>
+          <th>Risultato</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&amp;#169;</td>
+          <td>&copy;</td>
+        </tr>
+        <tr>
+          <td>&amp;#174;</td>
+          <td>&reg;</td>
+        </tr>
+        <tr>
+          <td>&amp;#8364;</td>
+          <td>&euro;</td>
+        </tr>
+        <tr>
+          <td>&amp;#163;</td>
+          <td>&pound;</td>
+        </tr>
+        <tr>
+          <td colspan="2">cella colspan 2</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </section>
+
+
+    <div>Prima indentazione
+        <div>Seconda indentazione
+            <div>Terza indentazione</div>
+        </div>
+    </div>
+
+
+    <p>
+        Ciao
+        a
+        tutti
+    </p>
+
+    <!-- Tag per contenuti -->
+    <section>
+      <h1>Titolo h1</h1>
+      <h2>Titolo h2</h2>
+      <h3>Titolo h3</h3>
+      <h4>Titolo h4</h4>
+      <h5>Titolo h5</h5>
+      <h6>Titolo h6</h6>
+
+      Testo fuori dallo span <span style="color:red">testo nello span</span>
+
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam dolorum doloremque molestiae quaerat! Nisi earum, doloremque maiores veritatis aperiam amet. Molestiae maxime a unde voluptates harum. Omnis numquam ipsa quis!</p>
+
+      <blockquote>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quibusdam voluptatibus
+      </blockquote>
+
+
+      <video src="video.mp4" poster="image.jpg" controls height="300" width="450">
+      </video>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+      <!-- Liste -->
+
+      <ul>
+        <li>Primo elemento</li>
+        <li>Secondo elemento</li>
+        <li>Terzo elemento</li>
+      </ul>
+
+      <ol>
+        <li>Primo elemento</li>
+        <li>Secondo elemento</li>
+        <li>Terzo elemento</li>
+      </ol>
+
+      <ul>
+        <li>Primo elemento</li>
+        <li>Secondo elemento</li>
+        <li>Terzo elemento</li>
+        <ol>
+          <li>Primo elemento</li>
+          <li>Secondo elemento</li>
+          <li>Terzo elemento</li>
+        </ol>
+      </ul>
+
+      <ul>
+        <li>Primo elemento</li>
+        <li>Secondo elemento</li>
+        <li>Terzo elemento</li>
+        <ul>
+          <li>Primo elemento</li>
+          <li>Secondo elemento</li>
+          <li>Terzo elemento</li>
+        </ul>
+      </ul>
+
+
+      <!-- Links -->
+
+      <a href="https://www.youtube.com/embed/dQw4w9WgXcQ">link che porta altrove</a>
+      <a href="#">link che aggiorna la pagina</a>
+
+      <hr>
+    </section>
+
+
+    <section>
+      <!-- Tag di stile -->
+      Testo senza stile             <br>
+
+      <em>Testo corsivo con em</em> <br>
+      <i>Testo corsivo con i</i>    <br>
+
+      <strong>Testo in grassetto con strong</strong> <br>
+      <b>Testo in grassetto con b</b>                <br>
+
+      <code>Testo dentro il tag code</code>
+
+      <pre>
+        function helloWorld() {
+          console.log("Hello, world!");
+        }
+        helloWorld();
+      </pre>
+
+      <hr>
+
+    </section>
+
+
+  </main>
+  <footer>
+    Footer
+  </footer>
+</body>
+<script>
+  // alert('Codice fastidioso');
+</script>
+</html>
+
